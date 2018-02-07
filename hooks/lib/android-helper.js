@@ -26,16 +26,15 @@ module.exports = {
         ].join("\n");
 
         utilities.writeBuildGradle(buildGradle);
-    }
-},
+  },
 
-removeGooglePlayServicesFromGradle: function() {
+  removeGooglePlayServicesFromGradle: function() {
 
     var buildGradle = utilities.readBuildGradle();
 
     buildGradle = buildGradle.replace(/\n\/\/ Google Play Services Plugin - Start[\s\S]*\/\/ Google Play Services Plugin - End/, "");
 
     utilities.writeBuildGradle(buildGradle);
-}
+  }
 
 };
