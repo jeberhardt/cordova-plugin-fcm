@@ -26,6 +26,8 @@
     <keywords>cordova, fcm, push, plugin</keywords>
 
     <hook type="after_plugin_install" src="hooks/after_plugin_add.js" />
+    <hook type="after_platform_add" src="hooks/after_plugin_add.js" />
+    <hook type="before_plugin_uninstall" src="hooks/before_plugin_rm.js" />    
 
     <info>
 		Cordova FCM plugin v2.1.2 installed
