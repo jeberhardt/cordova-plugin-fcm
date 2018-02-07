@@ -14,10 +14,10 @@ module.exports = {
             "// Google Play Services Plugin - Start ",
             "buildscript {",
             "    repositories {",
-            "        maven { url 'https://maven.google.com' }"
+            "        maven { url 'https://maven.google.com' }",
             "    }",
             "    dependencies {",
-            "        classpath 'com.google.gms:google-services:3.1.0'"
+            "        classpath 'com.google.gms:google-services:3.1.0'",
             "    }",
             "}",
             "",
